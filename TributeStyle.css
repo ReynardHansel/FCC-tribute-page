@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&family=Nunito:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+#main {
+    background-image: url(Images/trianglify-lowres.png);
+    background-size: cover;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.container-section {
+    background-color: hsl(190, 100%, 97%);
+    margin: 0 2%;
+    margin-bottom: 50px;
+    padding-bottom: 10px;
+}
+
+#title {
+    text-align: center;
+    font-size: 3.5em;
+    font-weight: strong;
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 0;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    
+}
+
+.title-semi {
+    text-align: center;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10%;
+    font-weight: 900;
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+.title-break {
+    margin: 0 auto;
+    border: 1px solid black;
+    max-width: 50%;
+}
+
+#img-div {
+    margin: 0 auto;
+    padding: 12px 0;
+    text-align: center;
+    background-color: hsl(190, 50%, 86%);
+    
+}
+
+#img-caption {
+    padding: 0 10%;
+    font-size: 0.9em;
+}
+
+#image {
+    display: block;
+    margin: 0 auto;
+    max-height: 90%;
+    max-width: 90%;
+}
+
+
+#tribute-info {
+    margin: 1em;
+}
+
+#tribute-info p, span, a {
+    font-size: 1.1em;
+}
+
